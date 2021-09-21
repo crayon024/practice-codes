@@ -1,0 +1,25 @@
+#spring:
+#  datasource:
+#    url: "jdbc:mysql://localhost:3306/advanced"
+#    username: "crayon"
+#    password: ""
+
+spring:
+  datasource:
+    #url: "jdbc:mysql://localhost:3307/advanced"
+    url: "jdbc:mysql://localhost:3308/advanced"
+    username: "root"
+#    password: "Zzxc.2020"
+    password: "root"
+master:
+  datasource:
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+    url: "jdbc:mysql://localhost:3308/advanced"
+    username: "root"
+    password: "root"
+slave:
+  datasource:
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+    url: "jdbc:mysql://localhost:3307/advanced"
+    username: "root"
+    password: "root"
