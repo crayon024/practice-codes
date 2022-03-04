@@ -45,4 +45,9 @@ public class InputOutputStream {
             }
         }
     }
+
+    public Integer testMockito(Integer input) {
+
+        return input * 10;
+    }
 }
